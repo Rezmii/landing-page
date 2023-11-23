@@ -1,0 +1,168 @@
+body,
+p {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+header {
+  display: flex;
+  padding: 20px 150px 100px 150px;
+  flex-direction: column;
+}
+.links {
+  display: flex;
+  gap: 25px;
+}
+
+.main-text,
+.butt {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.main-text,
+.secondary-text {
+  padding-bottom: 10px;
+}
+
+.secondary-text,
+header .links a,
+footer {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.butt {
+  background-color: rgb(6, 134, 238);
+  font-size: 18px;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-panel {
+  padding-bottom: 150px;
+}
+
+.hero-text {
+  text-wrap: wrap;
+  width: 450px;
+}
+
+.header-panel,
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.placeholder {
+  background-color: rgb(110, 108, 108);
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.img-container {
+  display: flex;
+  padding: 0 30px 20px 30px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.img-container p,
+.sec3 p {
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.img-container p {
+  padding-top: 10px;
+  flex-wrap: wrap;
+  width: 170px;
+  text-align: center;
+}
+
+.img-border {
+  border: solid 5px #3882f6;
+  border-radius: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+.sec3 {
+  background-color: #e5e7eb;
+  padding: 100px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.thor {
+  font-weight: bolder;
+}
+
+.sec4-border {
+  background-color: #3882f6;
+  margin: 70px 90px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 70px;
+  color: #e5e7eb;
+  font-size: 18px;
+  gap: 120px;
+}
+
+.sec4 .action,
+.sec4-button {
+  font-weight: bolder;
+}
+
+.sec4-button {
+  background-color: #3882f6;
+  border: solid 3px #e5e7eb;
+  border-radius: 10px;
+  color: #e5e7eb;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+.sec4-pfs {
+  text-wrap: nowrap;
+}
+
+footer {
+  text-align: center;
+  height: 50px;
+  padding-top: 25px;
+}
